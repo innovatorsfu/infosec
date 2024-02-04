@@ -687,7 +687,7 @@ function infiniteScroll(){!function(t,e){t.InfiniteScroll=function(n){function r
     <b:if cond='!data:view.isError'><input class='h' id='ham' type='checkbox'/></b:if>
     <header class='s'><b:attr cond='data:view.isError' name='class' value='h'/><div class='inner f r'>
     <b:section class='header' id='header' showaddelement='false'>
-      <b:widget id='Header1' locked='true' title='InfoSec (Tiêu đề)' type='Header' visible='true'>
+      <b:widget id='Header1' locked='true' title='InfoSec (Header)' type='Header' visible='true'>
         <b:widget-settings>
           <b:widget-setting name='displayUrl'/>
           <b:widget-setting name='displayHeight'>0</b:widget-setting>
@@ -945,6 +945,7 @@ function infiniteScroll(){!function(t,e){t.InfiniteScroll=function(n){function r
     <b:widget-settings>
       <b:widget-setting name='showSnippet'>true</b:widget-setting>
       <b:widget-setting name='showPostTitle'>true</b:widget-setting>
+      <b:widget-setting name='postId'>0</b:widget-setting>
       <b:widget-setting name='showFirstImage'>true</b:widget-setting>
       <b:widget-setting name='useMostRecentPost'>true</b:widget-setting>
     </b:widget-settings>
@@ -1232,7 +1233,7 @@ function infiniteScroll(){!function(t,e){t.InfiniteScroll=function(n){function r
         </b:if>
       </b:includable>
   </b:widget>
-  <b:widget id='Blog1' locked='true' title='Bài đăng trên Blog' type='Blog' version='2' visible='true'>
+  <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog' version='2' visible='true'>
     <b:widget-settings>
       <b:widget-setting name='commentLabel'>Comment</b:widget-setting>
       <b:widget-setting name='showShareButtons'>false</b:widget-setting>
@@ -1901,7 +1902,7 @@ function infiniteScroll(){!function(t,e){t.InfiniteScroll=function(n){function r
     </b:includable>
   </b:widget>
 </b:section></main><b:if cond='!data:view.isPage AND data:skin.vars.blog_style == &quot;2px&quot;'><aside><b:section id='aside' showaddelement='true'>
-  <b:widget id='Profile1' locked='false' title='About Me' type='Profile' visible='true'>
+  <b:widget id='Profile1' locked='false' title='About Me' type='Profile' version='2' visible='true'>
     <b:widget-settings>
       <b:widget-setting name='showaboutme'>true</b:widget-setting>
       <b:widget-setting name='showlocation'>false</b:widget-setting>
@@ -2218,7 +2219,7 @@ function infiniteScroll(){!function(t,e){t.InfiniteScroll=function(n){function r
   <b:widget id='Label1' locked='false' title='Label' type='Label' visible='true'>
     <b:widget-settings>
       <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
-      <b:widget-setting name='display'>CLOUD</b:widget-setting>
+      <b:widget-setting name='display'>LIST</b:widget-setting>
       <b:widget-setting name='selectedLabelsList'/>
       <b:widget-setting name='showType'>ALL</b:widget-setting>
       <b:widget-setting name='showFreqNumbers'>false</b:widget-setting>
@@ -2305,7 +2306,7 @@ function infiniteScroll(){!function(t,e){t.InfiniteScroll=function(n){function r
       </b:includable>
   </b:widget>
 </b:section><b:section class='sticky s' id='sticky' showaddelement='true'>
-<b:widget cond='(!data:view.isSearch AND !data:view.isArchive) AND !data:view.isPreview' id='HTML20' locked='false' title='Sticky Ads (desktop only)' type='HTML' version='2' visible='false'>
+<b:widget cond='(!data:view.isSearch AND !data:view.isArchive) AND !data:view.isPreview' id='HTML20' locked='false' title='Sticky Ads (desktop only)' type='HTML' version='2' visible='true'>
   <b:widget-settings>
     <b:widget-setting name='content'/>
   </b:widget-settings>
@@ -2463,7 +2464,7 @@ function infiniteScroll(){!function(t,e){t.InfiniteScroll=function(n){function r
 </b:section></div>
 <!-- FOOTER -->
 <b:if cond='!data:view.isPage'><footer class='footer'><b:class cond='!data:view.isPreview' name='swipe-up'/><div class='footer-inner bg-100'><div class='footers g'><b:section id='footer1' showaddelement='true'>
-  <b:widget id='HTML27' locked='false' title='' type='HTML' visible='false'>
+  <b:widget id='HTML27' locked='false' title='' type='HTML' visible='true'>
     <b:widget-settings>
       <b:widget-setting name='content'><![CDATA[<p class='tx-md tx-75 itsme'>Hey, it's me!</p><svg class='ignielIcon' viewbox="0 0 2400 490"><g transform="translate(0, 490) scale(0.1, -0.1)"><path d="M142 2998 l3 -1743 565 0 565 0 0 1740 0 1740 -568 3 -567 2 2 -1742z"></path><path d="M1972 4729 c-200 -26 -320 -100 -385 -237 l-32 -67 0 -1430 0 -1430 23 -58 c31 -76 103 -149 185 -188 125 -58 155 -61 700 -66 l497 -5 0 -104 0 -104 -1410 0 -1410 0 0 -435 0 -435 1783 2 c1678 3 1786 4 1842 21 152 45 242 113 291 220 l29 62 3 2133 2 2132 -1027 -1 c-566 -1 -1056 -5 -1091 -10z m988 -1739 l0 -871 -137 3 -138 3 -3 868 -2 867 140 0 140 0 0 -870z"></path><path d="M4382 2998 l3 -1743 565 0 565 0 3 1303 2 1302 135 0 135 0 0 -1647 c0 -1766 -1 -1723 50 -1822 45 -90 140 -155 285 -198 55 -16 144 -18 1138 -21 l1077 -3 0 436 0 435 -705 0 -705 0 0 1643 c0 993 -4 1665 -10 1700 -21 129 -94 232 -203 285 -109 54 -180 66 -382 66 -327 -1 -571 -58 -759 -178 l-55 -35 -3 107 -3 107 -568 3 -567 2 2 -1742z"></path><path d="M7205 4728 c-3 -7 -4 -791 -3 -1743 l3 -1730 565 0 565 0 3 1743 2 1742 -565 0 c-443 0 -567 -3 -570 -12z"></path><path d="M9032 4730 c-85 -12 -167 -36 -225 -68 -66 -35 -141 -120 -169 -190 l-23 -57 0 -1420 0 -1420 24 -60 c50 -124 161 -205 331 -242 78 -17 149 -18 920 -18 921 0 908 -1 1045 63 104 49 161 111 200 217 17 44 19 92 23 428 l4 377 -571 0 -571 0 0 -110 0 -110 -135 0 -135 0 0 220 0 220 705 0 705 0 0 873 c0 521 -4 900 -10 942 -25 178 -133 289 -332 342 -56 15 -150 17 -893 19 -456 1 -858 -2 -893 -6z m988 -1115 l0 -245 -135 0 -135 0 0 245 0 245 135 0 135 0 0 -245z"></path><path d="M11430 2455 l0 -2285 1275 0 1275 0 0 435 0 435 -705 0 -705 0 -2 1848 -3 1847 -567 3 -568 2 0 -2285z"></path><path d="M14672 4730 c-85 -12 -167 -36 -225 -68 -66 -35 -141 -120 -169 -190 l-23 -57 0 -1420 0 -1420 24 -60 c50 -124 161 -205 331 -242 78 -17 149 -18 920 -18 921 0 908 -1 1045 63 106 50 163 113 201 222 18 52 19 92 19 730 l0 675 -565 0 -565 0 -3 -412 -2 -413 -135 0 -135 0 0 870 0 870 135 0 135 0 0 -295 0 -295 570 0 570 0 0 518 c0 286 -5 548 -10 587 -25 178 -133 289 -332 342 -56 15 -150 17 -893 19 -456 1 -858 -2 -893 -6z"></path><path d="M17482 4730 c-85 -12 -167 -36 -225 -68 -66 -35 -141 -120 -169 -190 l-23 -57 0 -1420 0 -1420 24 -60 c50 -124 161 -205 331 -242 78 -17 149 -18 920 -18 921 0 908 -1 1045 63 103 49 160 110 201 217 18 48 19 99 22 1400 2 899 -1 1377 -8 1430 -24 187 -128 297 -332 352 -56 15 -150 17 -893 19 -456 1 -858 -2 -893 -6z m988 -1740 l0 -870 -135 0 -135 0 0 870 0 870 135 0 135 0 0 -870z"></path><path d="M19882 2998 l3 -1743 565 0 565 0 3 1303 2 1302 135 0 135 0 2 -1302 3 -1303 565 0 565 0 3 1303 2 1302 145 0 145 0 0 -1305 0 -1305 558 2 557 3 3 1520 c2 1368 0 1525 -14 1575 -21 72 -53 126 -111 185 -157 159 -410 225 -746 196 -266 -23 -421 -78 -533 -189 l-59 -60 -55 58 c-114 118 -237 172 -439 192 -307 30 -669 -48 -818 -177 l-42 -36 -3 108 -3 108 -568 3 -567 2 2 -1742z"></path><path d="M12850 1685 l0 -435 565 0 565 0 0 435 0 435 -565 0 -565 0 0 -435z"></path></g></svg><div><b>Igniplex</b> adalah tema Blogger (template Blogspot) premium yang dibuat oleh Igniel dengan menggunakan lisensi dan verifikasi domain.</div>]]></b:widget-setting>
     </b:widget-settings>
@@ -2475,7 +2476,7 @@ function infiniteScroll(){!function(t,e){t.InfiniteScroll=function(n){function r
 </b:includable>
   </b:widget>
 </b:section><b:section id='footer2' showaddelement='true'>
-<b:widget id='HTML28' locked='false' title='Info' type='HTML' visible='false'>
+<b:widget id='HTML28' locked='false' title='Info' type='HTML' visible='true'>
   <b:widget-settings>
     <b:widget-setting name='content'><![CDATA[Harga: <b>Rp 230.000</b> ($23)<br/>Rilisan Terbaru: <b>v3</b><br/>Tanggal Rilis: <b>12 Februari 2023</b>]]></b:widget-setting>
   </b:widget-settings>
@@ -2487,7 +2488,7 @@ function infiniteScroll(){!function(t,e){t.InfiniteScroll=function(n){function r
 </b:includable>
 </b:widget>
 </b:section><b:section id='footer3' showaddelement='true'>
-<b:widget id='LinkList1' locked='false' title='Partner' type='LinkList' visible='false'>
+<b:widget id='LinkList1' locked='false' title='Partner' type='LinkList' visible='true'>
   <b:widget-settings>
     <b:widget-setting name='link-3'>/p/privacy-policy.html</b:widget-setting>
     <b:widget-setting name='sorting'>NONE</b:widget-setting>
@@ -2523,7 +2524,7 @@ function infiniteScroll(){!function(t,e){t.InfiniteScroll=function(n){function r
 </b:widget>
 <b:widget id='HTML30' locked='true' title='Attribution' type='HTML' version='2' visible='true'>
   <b:widget-settings>
-    <b:widget-setting name='content'><![CDATA[<span class="distr" >Theme by <a href='https://protemplates.org/'  target='_blank' '>Pro Templates</a></span>]]></b:widget-setting>
+    <b:widget-setting name='content'><![CDATA[<span class="distr" >Theme by <a href='/'  target='_blank' '>InfoSec</a></span>]]></b:widget-setting>
   </b:widget-settings>
   <b:includable id='main'><data:content/></b:includable>
   <b:includable id='widget-title'><b:comment>Don&#39;t show.</b:comment></b:includable>
