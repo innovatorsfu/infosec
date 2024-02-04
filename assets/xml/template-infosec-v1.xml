@@ -18,14 +18,14 @@
 <meta content='Keyword 1, keyword 2, keyword 3, keyword 4, keyword 5, etc' property='article:tag'/>
 
 <!-- AUTHOR -->
-<meta content='Your Name' name='author'/>
-<meta content='Your Name' property='article:author'/>
+<meta content='Innovators' name='author'/>
+<meta content='Innovators' property='article:author'/>
 <link href='https://www.blogger.com/profile/BLOGGER PROFILE' rel='me'/>
 <link href='https://www.blogger.com/profile/BLOGGER PROFILE' rel='author'/>
 <link href='https://www.blogger.com/profile/BLOGGER PROFILE' rel='publisher'/>
-<meta content='ID FACEBOOK' property='fb:admins'/>
-<meta content='https://www.facebook.com/ID FACEBOOK' property='article:author'/>
-<meta content='https://www.facebook.com/ID FACEBOOK' property='article:publisher'/>
+<meta content='InfoSec - Innovators' property='fb:admins'/>
+<meta content='//www.facebook.com/infosecfu' property='article:author'/>
+<meta content='//www.facebook.com/infosecfu' property='article:publisher'/>
 <meta content='@USERNAME TWITTER' name='twitter:site'/>
 <meta content='@USERNAME TWITTER' name='twitter:creator'/>
 
@@ -34,7 +34,8 @@
 <meta content='xxxxxxxx' name='msvalidate.01'/>
 
 <!-- FAVICON -->
-<link expr:href='data:blog.blogspotFaviconUrl' rel='icon' type='image/x-icon'/><link expr:href='data:blog.blogspotFaviconUrl' rel='apple-touch-icon'/>
+<link href='//cdn.jsdelivr.net/gh/innovatorsfu/infosec@cd76571/assets/img/logo/favicon/favicon132.png' rel='icon' type='image/x-icon'/>
+<link expr:href='data:blog.blogspotFaviconUrl' rel='apple-touch-icon'/>
 
 <!-- THEME COLOR (MOBILE ONLY) -->
 <meta expr:content='data:skin.vars.primary_light' name='theme-color'/><meta expr:content='data:skin.vars.primary_light' name='msapplication-navbutton-color'/><meta expr:content='data:skin.vars.primary_light' name='apple-mobile-web-app-status-bar-style'/><meta content='yes' name='apple-mobile-web-app-capable'/>
@@ -53,7 +54,7 @@
 <!-- <link as='script' href='//pagead2.googlesyndication.com' rel='preload'/> -->
 
 <!-- PRECONNECT -->
-<link crossorigin='crossorigin' expr:href='data:blog.homepageUrl.canonical + &quot;feeds/posts/summary&quot;' rel='preconnect dns-prefetch'/><link crossorigin='crossorigin' href='https://source.igniel.com' rel='preconnect dns-prefetch'/><link crossorigin='crossorigin' href='//fonts.gstatic.com' rel='preconnect dns-prefetch'/><link href='//fonts.googleapis.com' rel='preconnect dns-prefetch'/><link href='//cdn.statically.io' rel='preconnect dns-prefetch'/><link href='//blogger.googleusercontent.com' rel='preconnect dns-prefetch'/><link href='//4.bp.blogspot.com' rel='preconnect dns-prefetch'/><link href='//2.bp.blogspot.com' rel='preconnect dns-prefetch'/><link href='//3.bp.blogspot.com' rel='preconnect dns-prefetch'/><link href='//4.bp.blogspot.com' rel='preconnect dns-prefetch'/><link href='//lh1.googleusercontent.com' rel='preconnect dns-prefetch'/><link href='//lh2.googleusercontent.com' rel='preconnect dns-prefetch'/><link href='//lh3.googleusercontent.com' rel='preconnect dns-prefetch'/><link href='//lh4.googleusercontent.com' rel='preconnect dns-prefetch'/><link href='//img.youtube.com' rel='preconnect dns-prefetch'/><link href='//i.ytimg.com' rel='preconnect dns-prefetch'/><link href='//apis.google.com' rel='preconnect dns-prefetch'/><link href='//ajax.googleapis.com' rel='preconnect dns-prefetch'/><link href='//www.google-analytics.com' rel='preconnect dns-prefetch'/><link href='//googleads.g.doubleclick.net' rel='preconnect dns-prefetch'/><link href='//www.gstatic.com' rel='preconnect dns-prefetch'/><link href='//www.googletagservices.com' rel='preconnect dns-prefetch'/><link href='//tpc.googlesyndication.com' rel='preconnect dns-prefetch'/><link href='//www.googletagmanager.com' rel='preconnect dns-prefetch'/>
+<link crossorigin='crossorigin' expr:href='data:blog.homepageUrl.canonical + &quot;feeds/posts/summary&quot;' rel='preconnect dns-prefetch'/><link crossorigin='crossorigin' href='//infosecfu.blogspot.com' rel='preconnect dns-prefetch'/><link crossorigin='crossorigin' href='//fonts.gstatic.com' rel='preconnect dns-prefetch'/><link href='//fonts.googleapis.com' rel='preconnect dns-prefetch'/><link href='//cdn.statically.io' rel='preconnect dns-prefetch'/><link href='//blogger.googleusercontent.com' rel='preconnect dns-prefetch'/><link href='//4.bp.blogspot.com' rel='preconnect dns-prefetch'/><link href='//2.bp.blogspot.com' rel='preconnect dns-prefetch'/><link href='//3.bp.blogspot.com' rel='preconnect dns-prefetch'/><link href='//4.bp.blogspot.com' rel='preconnect dns-prefetch'/><link href='//lh1.googleusercontent.com' rel='preconnect dns-prefetch'/><link href='//lh2.googleusercontent.com' rel='preconnect dns-prefetch'/><link href='//lh3.googleusercontent.com' rel='preconnect dns-prefetch'/><link href='//lh4.googleusercontent.com' rel='preconnect dns-prefetch'/><link href='//img.youtube.com' rel='preconnect dns-prefetch'/><link href='//i.ytimg.com' rel='preconnect dns-prefetch'/><link href='//apis.google.com' rel='preconnect dns-prefetch'/><link href='//ajax.googleapis.com' rel='preconnect dns-prefetch'/><link href='//www.google-analytics.com' rel='preconnect dns-prefetch'/><link href='//googleads.g.doubleclick.net' rel='preconnect dns-prefetch'/><link href='//www.gstatic.com' rel='preconnect dns-prefetch'/><link href='//www.googletagservices.com' rel='preconnect dns-prefetch'/><link href='//tpc.googlesyndication.com' rel='preconnect dns-prefetch'/><link href='//www.googletagmanager.com' rel='preconnect dns-prefetch'/>
 
 <!-- EXTERNAL SCRIPT -->
 <b:include data='blog' name='google-analytics'/>
@@ -65,7 +66,7 @@ eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
 //]]></script>
 <b:skin><![CDATA[/*
 <Variable name="igniplexFont" description="Font System" type="font" default="400 14px Arial, sans-serif" hideEditor="true" value="400 14px Arial, sans-serif"/>
-<Variable name="body.background" description="Background" color="$(body.background.color)" type="background" default="$(color) none repeat scroll center center" hideEditor="true" value="$(color) url() no-repeat scroll center center /* Credit: Igniel (https://www.igniel.com) */;"/>
+<Variable name="body.background" description="Background" color="$(body.background.color)" type="background" default="$(color) none repeat scroll center center" hideEditor="true" value="$(color) url() no-repeat scroll center center /* Credit: Igniel */;"/>
 <Variable name="body.link.color" description="Link color" type="color" default="$(primary.light)" hideEditor="true" value="#00857c"/>
 <Variable name="body.text.font" description="Body Text Font" type="font" default="$(igniplexFont)" hideEditor="true" value="400 14px Arial, sans-serif"/>
 <Variable name="labels.background.color" description="Labels background color" type="color" default="#fdfdfd" hideEditor="true" value="#fdfdfd"/>
@@ -198,13 +199,13 @@ eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
       background-color: #caffe4;
     }
     body#layout header:before {
-      content: 'IGNIPLEX v3';
+      content: 'INFOSEC v1';
       color: #009688;
       font: normal 400 28px Arial, sans-serif;
       top: 25px;
     }
     body#layout header:after {
-      content: 'Premium Blogger theme by protemplates.org';
+      content: 'Premium Blogger theme by Innovators';
       color: #666;
       font: normal 400 14px Arial, sans-serif;
       top: 60px;
@@ -262,7 +263,7 @@ eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
       text-decoration: underline;
     }
     body#layout #license #HTML1 .widget-content .layout-title:after {
-      content: '(Masukkan lisensi di sini)';
+      content: '(insert license to here)';
       display: inline-block;
       font-size: 13px;
       margin-left: 10px;
@@ -415,7 +416,7 @@ function infiniteScroll(){!function(t,e){t.InfiniteScroll=function(n){function r
         <li class='skeleton r f'><div class='skl-top'/><div class='right a'><div class='skl-bottom'/><div class='skl-bottom two'/></div></li>
       </b:includable>
       <b:includable id='speech'>
-        <div class='listen pointer f h' role='button'><svg class='speaker' viewBox='0 0 24 24'><path d='M18.0003 16.7498C17.8403 16.7498 17.6903 16.6998 17.5503 16.5998C17.2203 16.3498 17.1503 15.8798 17.4003 15.5498C18.9703 13.4598 18.9703 10.5398 17.4003 8.44978C17.1503 8.11978 17.2203 7.64978 17.5503 7.39978C17.8803 7.14978 18.3503 7.21978 18.6003 7.54978C20.5603 10.1698 20.5603 13.8298 18.6003 16.4498C18.4503 16.6498 18.2303 16.7498 18.0003 16.7498Z'/><path d='M19.8304 19.2498C19.6704 19.2498 19.5204 19.1998 19.3804 19.0998C19.0504 18.8498 18.9804 18.3798 19.2304 18.0498C21.9004 14.4898 21.9004 9.50978 19.2304 5.94978C18.9804 5.61978 19.0504 5.14978 19.3804 4.89978C19.7104 4.64978 20.1804 4.71978 20.4304 5.04978C23.5004 9.13978 23.5004 14.8598 20.4304 18.9498C20.2904 19.1498 20.0604 19.2498 19.8304 19.2498Z'/><path d='M15.75 7.41021V16.5902C15.75 18.3102 15.13 19.6002 14.02 20.2202C13.57 20.4702 13.07 20.5902 12.55 20.5902C11.75 20.5902 10.89 20.3202 10.01 19.7702L7.09 17.9402C6.89 17.8202 6.66 17.7502 6.43 17.7502H5.5V6.25021H6.43C6.66 6.25021 6.89 6.18021 7.09 6.06021L10.01 4.23021C11.47 3.32021 12.9 3.16021 14.02 3.78021C15.13 4.40021 15.75 5.69021 15.75 7.41021Z' opacity='0.4'/><path d='M5.5 6.25V17.75H5C2.58 17.75 1.25 16.42 1.25 14V10C1.25 7.58 2.58 6.25 5 6.25H5.5Z'/></svg><svg class='fill pause h' viewBox='0 0 24 24'><path d='M15,16H13V8H15M11,16H9V8H11M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z'/></svg><svg class='play h' viewBox='0 0 24 24'><path d='M11.9707 22C17.4936 22 21.9707 17.5228 21.9707 12C21.9707 6.47715 17.4936 2 11.9707 2C6.44786 2 1.9707 6.47715 1.9707 12C1.9707 17.5228 6.44786 22 11.9707 22Z' opacity='0.4'/><path d='M14.9694 10.2301L12.0694 8.56012C11.3494 8.14012 10.4794 8.14012 9.75938 8.56012C9.03938 8.98012 8.60938 9.72012 8.60938 10.5601V13.9101C8.60938 14.7401 9.03938 15.4901 9.75938 15.9101C10.1194 16.1201 10.5194 16.2201 10.9094 16.2201C11.3094 16.2201 11.6994 16.1201 12.0594 15.9101L14.9594 14.2401C15.6794 13.8201 16.1094 13.0801 16.1094 12.2401C16.1294 11.4001 15.6994 10.6501 14.9694 10.2301Z'/></svg><span class='tx-primary'>Dengarkan</span></div>
+        <div class='listen pointer f h' role='button'><svg class='speaker' viewBox='0 0 24 24'><path d='M18.0003 16.7498C17.8403 16.7498 17.6903 16.6998 17.5503 16.5998C17.2203 16.3498 17.1503 15.8798 17.4003 15.5498C18.9703 13.4598 18.9703 10.5398 17.4003 8.44978C17.1503 8.11978 17.2203 7.64978 17.5503 7.39978C17.8803 7.14978 18.3503 7.21978 18.6003 7.54978C20.5603 10.1698 20.5603 13.8298 18.6003 16.4498C18.4503 16.6498 18.2303 16.7498 18.0003 16.7498Z'/><path d='M19.8304 19.2498C19.6704 19.2498 19.5204 19.1998 19.3804 19.0998C19.0504 18.8498 18.9804 18.3798 19.2304 18.0498C21.9004 14.4898 21.9004 9.50978 19.2304 5.94978C18.9804 5.61978 19.0504 5.14978 19.3804 4.89978C19.7104 4.64978 20.1804 4.71978 20.4304 5.04978C23.5004 9.13978 23.5004 14.8598 20.4304 18.9498C20.2904 19.1498 20.0604 19.2498 19.8304 19.2498Z'/><path d='M15.75 7.41021V16.5902C15.75 18.3102 15.13 19.6002 14.02 20.2202C13.57 20.4702 13.07 20.5902 12.55 20.5902C11.75 20.5902 10.89 20.3202 10.01 19.7702L7.09 17.9402C6.89 17.8202 6.66 17.7502 6.43 17.7502H5.5V6.25021H6.43C6.66 6.25021 6.89 6.18021 7.09 6.06021L10.01 4.23021C11.47 3.32021 12.9 3.16021 14.02 3.78021C15.13 4.40021 15.75 5.69021 15.75 7.41021Z' opacity='0.4'/><path d='M5.5 6.25V17.75H5C2.58 17.75 1.25 16.42 1.25 14V10C1.25 7.58 2.58 6.25 5 6.25H5.5Z'/></svg><svg class='fill pause h' viewBox='0 0 24 24'><path d='M15,16H13V8H15M11,16H9V8H11M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z'/></svg><svg class='play h' viewBox='0 0 24 24'><path d='M11.9707 22C17.4936 22 21.9707 17.5228 21.9707 12C21.9707 6.47715 17.4936 2 11.9707 2C6.44786 2 1.9707 6.47715 1.9707 12C1.9707 17.5228 6.44786 22 11.9707 22Z' opacity='0.4'/><path d='M14.9694 10.2301L12.0694 8.56012C11.3494 8.14012 10.4794 8.14012 9.75938 8.56012C9.03938 8.98012 8.60938 9.72012 8.60938 10.5601V13.9101C8.60938 14.7401 9.03938 15.4901 9.75938 15.9101C10.1194 16.1201 10.5194 16.2201 10.9094 16.2201C11.3094 16.2201 11.6994 16.1201 12.0594 15.9101L14.9594 14.2401C15.6794 13.8201 16.1094 13.0801 16.1094 12.2401C16.1294 11.4001 15.6994 10.6501 14.9694 10.2301Z'/></svg><span class='tx-primary'>Listen</span></div>
       </b:includable>
       <b:includable id='totop'>
         <button aria-label='Back To Top' class='totop round ignielSquircle'><svg class='a' viewBox='0 0 24 24'><path d='M18.0701 9.57L12.0001 3.5L5.93005 9.57'/><path d='M12 20.4999V3.66992'/></svg></button>
@@ -723,22 +724,22 @@ function infiniteScroll(){!function(t,e){t.InfiniteScroll=function(n){function r
     url: '',
     lazyAds: true,
     adblock: false,
-    adblockTitle: 'Matikan AdBlock',
-    adblockText: 'Agar blog ini tetap berjalan, matikan AdBlock atau masukkan blog ini ke dalam whitelist. Terima kasih.',
-    adblockClose: 'Tutup'
+    adblockTitle: 'Turn off AdBlock',
+    adblockText: 'To keep this blog running, turn off AdBlock or whitelist this blog. Thank You.',
+    adblockClose: 'Closed'
   },
   noimage: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYsIrfaJQ2BytaxI1q1G7q2EUA3g5TlaVeDxmihX66oHzidd9bewbuP7_cQJXgRuDF0dps3MCJcQPHEQ1SPTE8nd-Hj4uXLq5I9pK88gD6n6Z5WmUz5v7bq2g0rxn5dRg7WmNB51iNxqaGjeE2vh6jl4KzeGlb3eKBUE5J1Lh4Dw3wfrjTuQ5AKahQRQ/s0/igniplex-noimage.png',
-  syntax: 'Kode berhasil disalin',
+  syntax: 'Copied Successfully',
   youtube: 'sddefault',
   infiniteScroll: {
-    load: 'Muat artikel',
-    loading: 'Memuat...',
-    loaded: 'Selesai',
+    load: 'Load article',
+    loading: 'Loading...',
+    loaded: 'Finished',
     error: 'Error',
   },
   pagination: {
-    titleText: 'Halaman:',
-    allText: 'Lihat Semua',
+    titleText: 'Page:',
+    allText: 'See All',
   },
   postEmpty: {
     label: 'random',
@@ -789,7 +790,7 @@ function infiniteScroll(){!function(t,e){t.InfiniteScroll=function(n){function r
     </b:section><b:if cond='!data:view.isError'><div class='menu'><label aria-label='Close Menu' class='cover fi f' for='ham'/><b:section class='menu-inner' id='main-menu' showaddelement='false'>
 <b:widget id='HTML3' locked='true' title='Menu' type='HTML' version='2' visible='true'>
   <b:widget-settings>
-    <b:widget-setting name='content'><![CDATA[<li><a href='https://www.igniplex.com' title='Download Theme' target='_blank' rel='noopener'>Download Theme</a></li>
+    <b:widget-setting name='content'><![CDATA[<li><a href='#' title='Download Theme' target='_blank' rel='noopener'>Download Theme</a></li>
   <li><a href='https://igniplex.blogspot.com/2023/02/bug-report-v3.html' title='Bug Report' target='_blank' rel='noopener'>Bug Report</a></li>
   <li class="dropdown">
     <span>Dropdown</span>
