@@ -15,7 +15,7 @@ Chúng tôi là Team Innovators IA1807, mang đến những hướng giải phá
 - Giải pháp học tập
 
 # Screenshots
- <img src="https://infosecfu.blogspot.com/">
+ <img src="[https://infosecfu.blogspot.com/](https://1.bp.blogspot.com/-NH9XGKPHWbw/ZdD3H_zJjlI/AAAAAAAAAFU/PNeN9dc29O0zwgBKaO-6mIxn81ZFl7Z2ACNcBGAsYHQ/s16000/INFOSEC.png)">
  
 # Tech Used
 <p align="center"> <img alt="" src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" style="vertical-align:center" /> <img alt="" src="https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white" style="vertical-align:center" /> <img alt="" src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white" style="vertical-align:center" /> <img alt="" src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" style="vertical-align:center" /> <img alt="" src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white" style="vertical-align:center" /> <img alt="" src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" style="vertical-align:center" /> <img alt="" src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" style="vertical-align:center" /> <img alt="" src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white" style="vertical-align:center" /></p>
